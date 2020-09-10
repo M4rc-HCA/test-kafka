@@ -1,6 +1,7 @@
 # Kafka and Zookeeper
 USER Kafka
-FROM java:openjdk-8-jre
+FROM jecklgamis/openjdk-8-jre
+#FROM java:openjdk-8-jre
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV SCALA_VERSION 2.11
